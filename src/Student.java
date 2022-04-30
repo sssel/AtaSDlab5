@@ -16,6 +16,6 @@ public class Student {
 
     @Override
     public String toString(){
-        return "Прізвище: "+Surname+"\nІм'я: "+Name+"\nДата народження: "+DateOfBirth.getTime()+"\nХоббі: "+Hobby;
+        return "Прізвище: "+Surname+"\tІм'я: "+Name+"\tДата народження: "+DateOfBirth.getTime()+"\tХоббі: "+Hobby;
     }
 }
